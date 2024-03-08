@@ -1,0 +1,36 @@
+.joke-con{
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+img{
+    margin: 10px 100px;
+    position: fixed;
+    top: 100px;
+}
+.joke{
+    margin: 20px 20px;
+    position: fixed;
+    top: 330px;
+    width: 350px;
+}
+.btn{
+   height: 30px;
+   width: 200px;
+   background-color: green;
+   color: white;
+   font-weight: bold;
+   position: fixed;
+   bottom:100px ;
+}
+body{
+    background-color: skyblue;
+}
